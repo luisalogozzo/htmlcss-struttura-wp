@@ -3,3 +3,71 @@
   padding: 0;
   margin: 0;
 }
+
+header {
+  width: 60%;
+  height: 200px;
+  margin: auto;
+
+}
+
+.header-top {
+  width: 100%;
+  height: 80%;
+  background-color: yellow;
+}
+
+.header-bottom {
+  width: 100%;
+  height: 20%;
+  background-color: grey;
+}
+
+main {
+
+}
+
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+
+}
+
+.container {
+  background-color: red;
+  width: 60%;
+  height: 500px;
+  margin: 10px auto auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.col-left {
+  width: 100px;
+  background-color: blue;
+
+}
+
+.col-center {
+  width: 300px;
+  background-color: green;
+  margin-right: 50px;
+}
+
+.col-right {
+  width: 100px;
+  background-color: orange;
+}
+
+
+
+
+footer {
+  width: 60%;
+  height: 100px;
+  margin: auto;
+  background-color: pink;
+}
