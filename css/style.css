@@ -6,6 +6,7 @@
 
   body {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/40/Fraxinus_excelsior_wood_tangent_section_1_beentree.jpg);
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 header {
@@ -82,7 +83,7 @@ main {
 }
 
 .colright-center {
-  margin: 20px 0 20px;
+  margin: 30px 0 30px;
 }
 
 .colright-bottom {
