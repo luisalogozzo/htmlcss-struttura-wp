@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+  body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/40/Fraxinus_excelsior_wood_tangent_section_1_beentree.jpg);
+}
+
 header {
   width: 60%;
   height: 200px;
@@ -35,35 +39,55 @@ main {
 }
 
 .container {
-  background-color: red;
   width: 60%;
-  height: 500px;
   margin: 10px auto auto;
+  text-align: center;
 }
 
-.float-left {
-  float: left;
+.sides-col {
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+  border-radius: 5px;
 }
 
 .col-left {
-  width: 100px;
-  background-color: blue;
-
+  float: left;
+  background-color: white;
+  padding: 20px;
 }
 
 .col-center {
-  width: 300px;
-  background-color: green;
-  margin-right: 50px;
+  width: 400px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: left;
+  padding: 20px;
 }
 
 .col-right {
-  width: 100px;
-  background-color: orange;
+  float: right;
+
 }
 
+.colright-prop {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
 
+.colright-top {
 
+}
+
+.colright-center {
+  margin: 20px 0 20px;
+}
+
+.colright-bottom {
+
+}
 
 footer {
   width: 60%;
